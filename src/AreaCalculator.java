@@ -5,7 +5,6 @@ public class AreaCalculator {
         if (radius < 0) {
             return -1;
         }
-        System.out.println(Math.PI * Math.pow(radius, 2));
         return (Math.PI * Math.pow(radius, 2));
     }
 
@@ -14,7 +13,6 @@ public class AreaCalculator {
         if (x < 0 || y < 0) {
             return -1;
         }
-        System.out.println(x * y);
         return (x * y);
     }
 }
